@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4B64D6D026FA730F00A02178 /* MySwiftUITreasureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6CF26FA730F00A02178 /* MySwiftUITreasureApp.swift */; };
-		4B64D6D226FA730F00A02178 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6D126FA730F00A02178 /* ContentView.swift */; };
 		4B64D6D426FA731400A02178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B64D6D326FA731400A02178 /* Assets.xcassets */; };
 		4B64D6D726FA731400A02178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B64D6D626FA731400A02178 /* Preview Assets.xcassets */; };
 		4B64D6E226FA731400A02178 /* MySwiftUITreasureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6E126FA731400A02178 /* MySwiftUITreasureTests.swift */; };
 		4B64D6ED26FA731400A02178 /* MySwiftUITreasureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6EC26FA731400A02178 /* MySwiftUITreasureUITests.swift */; };
+		4B64D6FC26FA734000A02178 /* 3_VStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6FA26FA734000A02178 /* 3_VStackDemo.swift */; };
+		4B64D6FD26FA734000A02178 /* 4_ZStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6FB26FA734000A02178 /* 4_ZStackDemo.swift */; };
+		4B64D70026FA734800A02178 /* 1_MostBasicStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6FE26FA734800A02178 /* 1_MostBasicStuff.swift */; };
+		4B64D70126FA734800A02178 /* 2_HStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6FF26FA734800A02178 /* 2_HStackDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,6 @@
 /* Begin PBXFileReference section */
 		4B64D6CC26FA730F00A02178 /* MySwiftUITreasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUITreasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B64D6CF26FA730F00A02178 /* MySwiftUITreasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUITreasureApp.swift; sourceTree = "<group>"; };
-		4B64D6D126FA730F00A02178 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B64D6D326FA731400A02178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B64D6D626FA731400A02178 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B64D6D826FA731400A02178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +47,10 @@
 		4B64D6E826FA731400A02178 /* MySwiftUITreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUITreasureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B64D6EC26FA731400A02178 /* MySwiftUITreasureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUITreasureUITests.swift; sourceTree = "<group>"; };
 		4B64D6EE26FA731400A02178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B64D6FA26FA734000A02178 /* 3_VStackDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3_VStackDemo.swift; sourceTree = "<group>"; };
+		4B64D6FB26FA734000A02178 /* 4_ZStackDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4_ZStackDemo.swift; sourceTree = "<group>"; };
+		4B64D6FE26FA734800A02178 /* 1_MostBasicStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1_MostBasicStuff.swift; sourceTree = "<group>"; };
+		4B64D6FF26FA734800A02178 /* 2_HStackDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2_HStackDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,8 @@
 		4B64D6CE26FA730F00A02178 /* MySwiftUITreasure */ = {
 			isa = PBXGroup;
 			children = (
+				4B64D70226FA737F00A02178 /* Views */,
 				4B64D6CF26FA730F00A02178 /* MySwiftUITreasureApp.swift */,
-				4B64D6D126FA730F00A02178 /* ContentView.swift */,
 				4B64D6D326FA731400A02178 /* Assets.xcassets */,
 				4B64D6D826FA731400A02178 /* Info.plist */,
 				4B64D6D526FA731400A02178 /* Preview Content */,
@@ -128,6 +134,17 @@
 				4B64D6EE26FA731400A02178 /* Info.plist */,
 			);
 			path = MySwiftUITreasureUITests;
+			sourceTree = "<group>";
+		};
+		4B64D70226FA737F00A02178 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B64D6FE26FA734800A02178 /* 1_MostBasicStuff.swift */,
+				4B64D6FF26FA734800A02178 /* 2_HStackDemo.swift */,
+				4B64D6FA26FA734000A02178 /* 3_VStackDemo.swift */,
+				4B64D6FB26FA734000A02178 /* 4_ZStackDemo.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B64D6D226FA730F00A02178 /* ContentView.swift in Sources */,
+				4B64D6FC26FA734000A02178 /* 3_VStackDemo.swift in Sources */,
 				4B64D6D026FA730F00A02178 /* MySwiftUITreasureApp.swift in Sources */,
+				4B64D70026FA734800A02178 /* 1_MostBasicStuff.swift in Sources */,
+				4B64D6FD26FA734000A02178 /* 4_ZStackDemo.swift in Sources */,
+				4B64D70126FA734800A02178 /* 2_HStackDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
