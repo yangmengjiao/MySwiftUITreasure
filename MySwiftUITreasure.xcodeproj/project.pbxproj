@@ -16,6 +16,10 @@
 		4B64D6FD26FA734000A02178 /* 4_ZStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6FB26FA734000A02178 /* 4_ZStackDemo.swift */; };
 		4B64D70026FA734800A02178 /* 1_MostBasicStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6FE26FA734800A02178 /* 1_MostBasicStuff.swift */; };
 		4B64D70126FA734800A02178 /* 2_HStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6FF26FA734800A02178 /* 2_HStackDemo.swift */; };
+		4B64D70426FBB7CB00A02178 /* 7_ScrollViewReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70326FBB7CA00A02178 /* 7_ScrollViewReaderDemo.swift */; };
+		4B64D70626FBE41200A02178 /* 6_GeometryReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70526FBE41000A02178 /* 6_GeometryReaderDemo.swift */; };
+		4B64D70826FBE42C00A02178 /* 5_SpacerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70726FBE42C00A02178 /* 5_SpacerDemo.swift */; };
+		4B64D70A26FBE5A500A02178 /* 8_ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70926FBE5A500A02178 /* 8_ButtonDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		4B64D6FB26FA734000A02178 /* 4_ZStackDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4_ZStackDemo.swift; sourceTree = "<group>"; };
 		4B64D6FE26FA734800A02178 /* 1_MostBasicStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1_MostBasicStuff.swift; sourceTree = "<group>"; };
 		4B64D6FF26FA734800A02178 /* 2_HStackDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2_HStackDemo.swift; sourceTree = "<group>"; };
+		4B64D70326FBB7CA00A02178 /* 7_ScrollViewReaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7_ScrollViewReaderDemo.swift; sourceTree = "<group>"; };
+		4B64D70526FBE41000A02178 /* 6_GeometryReaderDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 6_GeometryReaderDemo.swift; sourceTree = "<group>"; };
+		4B64D70726FBE42C00A02178 /* 5_SpacerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5_SpacerDemo.swift; sourceTree = "<group>"; };
+		4B64D70926FBE5A500A02178 /* 8_ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_ButtonDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,10 @@
 				4B64D6FF26FA734800A02178 /* 2_HStackDemo.swift */,
 				4B64D6FA26FA734000A02178 /* 3_VStackDemo.swift */,
 				4B64D6FB26FA734000A02178 /* 4_ZStackDemo.swift */,
+				4B64D70726FBE42C00A02178 /* 5_SpacerDemo.swift */,
+				4B64D70526FBE41000A02178 /* 6_GeometryReaderDemo.swift */,
+				4B64D70326FBB7CA00A02178 /* 7_ScrollViewReaderDemo.swift */,
+				4B64D70926FBE5A500A02178 /* 8_ButtonDemo.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,7 +291,11 @@
 				4B64D6FC26FA734000A02178 /* 3_VStackDemo.swift in Sources */,
 				4B64D6D026FA730F00A02178 /* MySwiftUITreasureApp.swift in Sources */,
 				4B64D70026FA734800A02178 /* 1_MostBasicStuff.swift in Sources */,
+				4B64D70426FBB7CB00A02178 /* 7_ScrollViewReaderDemo.swift in Sources */,
 				4B64D6FD26FA734000A02178 /* 4_ZStackDemo.swift in Sources */,
+				4B64D70A26FBE5A500A02178 /* 8_ButtonDemo.swift in Sources */,
+				4B64D70626FBE41200A02178 /* 6_GeometryReaderDemo.swift in Sources */,
+				4B64D70826FBE42C00A02178 /* 5_SpacerDemo.swift in Sources */,
 				4B64D70126FA734800A02178 /* 2_HStackDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

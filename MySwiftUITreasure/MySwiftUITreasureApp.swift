@@ -11,7 +11,7 @@ import SwiftUI
 struct MySwiftUITreasureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrollViewReaderDemo()
         }
     }
 }
