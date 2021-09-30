@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B5F642827066FE800E10E3D /* 14_LabelDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F642727066FE800E10E3D /* 14_LabelDemo.swift */; };
+		4B5F642A270671AF00E10E3D /* 15_LinkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F6429270671AF00E10E3D /* 15_LinkDemo.swift */; };
+		4B5F642C2706737F00E10E3D /* 13_GroupBoxDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F642B2706737F00E10E3D /* 13_GroupBoxDemo.swift */; };
 		4B64D6D026FA730F00A02178 /* MySwiftUITreasureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D6CF26FA730F00A02178 /* MySwiftUITreasureApp.swift */; };
 		4B64D6D426FA731400A02178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B64D6D326FA731400A02178 /* Assets.xcassets */; };
 		4B64D6D726FA731400A02178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B64D6D626FA731400A02178 /* Preview Assets.xcassets */; };
@@ -20,6 +23,10 @@
 		4B64D70626FBE41200A02178 /* 6_GeometryReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70526FBE41000A02178 /* 6_GeometryReaderDemo.swift */; };
 		4B64D70826FBE42C00A02178 /* 5_SpacerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70726FBE42C00A02178 /* 5_SpacerDemo.swift */; };
 		4B64D70A26FBE5A500A02178 /* 8_ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70926FBE5A500A02178 /* 8_ButtonDemo.swift */; };
+		4B64D70C26FCC6F000A02178 /* 9_ColorPickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70B26FCC6EF00A02178 /* 9_ColorPickerDemo.swift */; };
+		4B64D70E26FCC9DC00A02178 /* 10_DatePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70D26FCC9DC00A02178 /* 10_DatePickerDemo.swift */; };
+		4B64D71026FCD4EF00A02178 /* 11_DisclosureGroupDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D70F26FCD4EF00A02178 /* 11_DisclosureGroupDemo.swift */; };
+		4B64D71226FCEEBC00A02178 /* 12_FormDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D71126FCEEBC00A02178 /* 12_FormDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B5F642727066FE800E10E3D /* 14_LabelDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_LabelDemo.swift; sourceTree = "<group>"; };
+		4B5F6429270671AF00E10E3D /* 15_LinkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_LinkDemo.swift; sourceTree = "<group>"; };
+		4B5F642B2706737F00E10E3D /* 13_GroupBoxDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 13_GroupBoxDemo.swift; sourceTree = "<group>"; };
 		4B64D6CC26FA730F00A02178 /* MySwiftUITreasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUITreasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B64D6CF26FA730F00A02178 /* MySwiftUITreasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUITreasureApp.swift; sourceTree = "<group>"; };
 		4B64D6D326FA731400A02178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +69,10 @@
 		4B64D70526FBE41000A02178 /* 6_GeometryReaderDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 6_GeometryReaderDemo.swift; sourceTree = "<group>"; };
 		4B64D70726FBE42C00A02178 /* 5_SpacerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5_SpacerDemo.swift; sourceTree = "<group>"; };
 		4B64D70926FBE5A500A02178 /* 8_ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_ButtonDemo.swift; sourceTree = "<group>"; };
+		4B64D70B26FCC6EF00A02178 /* 9_ColorPickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_ColorPickerDemo.swift; sourceTree = "<group>"; };
+		4B64D70D26FCC9DC00A02178 /* 10_DatePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_DatePickerDemo.swift; sourceTree = "<group>"; };
+		4B64D70F26FCD4EF00A02178 /* 11_DisclosureGroupDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_DisclosureGroupDemo.swift; sourceTree = "<group>"; };
+		4B64D71126FCEEBC00A02178 /* 12_FormDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_FormDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +169,13 @@
 				4B64D70526FBE41000A02178 /* 6_GeometryReaderDemo.swift */,
 				4B64D70326FBB7CA00A02178 /* 7_ScrollViewReaderDemo.swift */,
 				4B64D70926FBE5A500A02178 /* 8_ButtonDemo.swift */,
+				4B64D70B26FCC6EF00A02178 /* 9_ColorPickerDemo.swift */,
+				4B64D70D26FCC9DC00A02178 /* 10_DatePickerDemo.swift */,
+				4B64D70F26FCD4EF00A02178 /* 11_DisclosureGroupDemo.swift */,
+				4B64D71126FCEEBC00A02178 /* 12_FormDemo.swift */,
+				4B5F642B2706737F00E10E3D /* 13_GroupBoxDemo.swift */,
+				4B5F642727066FE800E10E3D /* 14_LabelDemo.swift */,
+				4B5F6429270671AF00E10E3D /* 15_LinkDemo.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,13 +310,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B64D6FC26FA734000A02178 /* 3_VStackDemo.swift in Sources */,
+				4B5F642827066FE800E10E3D /* 14_LabelDemo.swift in Sources */,
 				4B64D6D026FA730F00A02178 /* MySwiftUITreasureApp.swift in Sources */,
+				4B64D70C26FCC6F000A02178 /* 9_ColorPickerDemo.swift in Sources */,
+				4B64D71026FCD4EF00A02178 /* 11_DisclosureGroupDemo.swift in Sources */,
 				4B64D70026FA734800A02178 /* 1_MostBasicStuff.swift in Sources */,
 				4B64D70426FBB7CB00A02178 /* 7_ScrollViewReaderDemo.swift in Sources */,
 				4B64D6FD26FA734000A02178 /* 4_ZStackDemo.swift in Sources */,
+				4B5F642C2706737F00E10E3D /* 13_GroupBoxDemo.swift in Sources */,
+				4B64D70E26FCC9DC00A02178 /* 10_DatePickerDemo.swift in Sources */,
 				4B64D70A26FBE5A500A02178 /* 8_ButtonDemo.swift in Sources */,
 				4B64D70626FBE41200A02178 /* 6_GeometryReaderDemo.swift in Sources */,
 				4B64D70826FBE42C00A02178 /* 5_SpacerDemo.swift in Sources */,
+				4B5F642A270671AF00E10E3D /* 15_LinkDemo.swift in Sources */,
+				4B64D71226FCEEBC00A02178 /* 12_FormDemo.swift in Sources */,
 				4B64D70126FA734800A02178 /* 2_HStackDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
